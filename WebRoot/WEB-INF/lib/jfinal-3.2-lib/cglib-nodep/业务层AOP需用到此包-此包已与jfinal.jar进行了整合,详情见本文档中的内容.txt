@@ -1,0 +1,8 @@
+
+
+注意：jfinal jar 包已经整合了该 jar 包，如果 jar 包不是在 maven 中下载则不需要再引入此包
+
+如果从 maven 库中下载 jfinal jar 则需要引用此包，用到此包的 API 示例：
+1：Enhancer.enhance(....)
+2：在 controller 中调用 enhance(...)
+

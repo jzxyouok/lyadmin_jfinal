@@ -8,5 +8,23 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/cglib-nodep"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/cos"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/cron4j"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/druid"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/ehcache"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/fastjson"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/freemarker"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/jackson"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/jdk-log"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/JSTL_for_JSP"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/log4j"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/mysql"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/oracle"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/redis"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/sqlite"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/velocity"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/zxing"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jfinal-3.2-lib/c3p0"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

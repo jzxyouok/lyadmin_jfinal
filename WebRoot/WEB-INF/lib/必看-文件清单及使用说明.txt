@@ -1,0 +1,18 @@
+1：jfinal-3.2-bin.jar
+  开发 jfinal 项目唯一必须的 jar 包，其它所有 jar 包都不是必须的
+
+2：jfinal-3.2-src.zip
+  jfinal 3.2 源代码
+
+3：jfinal-3.2-bin-with-src.jar
+  jfinal 3.2 开发包 + 源码 的整合，方便非 maven 开发者在开发时调试和查看源码，从而不用再单独绑定 jfinal-3.2-src.zip 就可以在 IDE 中查看源码
+
+4：jetty-server-8.1.8.jar
+  jetty-server-8.1.8.jar 用来支持无需额外安装 tomcat jetty 等 web server
+   即可开始开发，同时它也是支持热部署的必要包。特别注意在使用tomcat开发或部署时需要去掉 jetty-server-8.1.8.jar 包，以免引起冲突
+
+5：jfinal-3.2-lib 目录下所有 jar 包
+  为开发者准备的常用且可能用到的 jar 包，方便非 maven 用户取用。详情请见 jfinal-3.2-lib 目录下的说明文件：“jfinal-3.2-库文件依赖及使用说明.txt”
+
+
+
