@@ -1,4 +1,4 @@
-package net.lingyun.lyadmin.home;
+package net.lingyun.lingyun.core.admin;
 
 import com.jfinal.core.Controller;
 

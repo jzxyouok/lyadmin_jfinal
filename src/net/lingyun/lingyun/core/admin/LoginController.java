@@ -1,8 +1,8 @@
-package net.lingyun.lyadmin.admin;
+package net.lingyun.lingyun.core.admin;
 
 import com.jfinal.core.Controller;
 
-public class IndexController extends Controller {
+public class LoginController extends Controller {
 	public void index() {
 		renderText("Hello JFinal World.");
 	}
