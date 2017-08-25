@@ -29,7 +29,7 @@ public class LingyunConfig extends JFinalConfig {
 	}
 	
 	public void configConstant(Constants me) {
-		//PropKit.use("/config.properties");
+		PropKit.use("/config.properties");
 		me.setDevMode(true); // 开发模式
 	}
 
@@ -54,11 +54,11 @@ public class LingyunConfig extends JFinalConfig {
 	}
 
 	public void configPlugin(Plugins me) {
-//		loadPropertyFile("config.properties");
-//		DruidPlugin dp = new DruidPlugin(getProperty("jdbcUrl"),  getProperty("user"), getProperty("password"));
-//		me.add(dp);
-//		ActiveRecordPlugin arp = new ActiveRecordPlugin(dp);
-//		me.add(arp);
+		loadPropertyFile("config.properties");
+		DruidPlugin dp = new DruidPlugin(getProperty("jdbcUrl"),  getProperty("user"), getProperty("password"));
+		me.add(dp);
+		ActiveRecordPlugin arp = new ActiveRecordPlugin(dp);
+		me.add(arp);
 		//arp.addMapping("user", User.class); 
 	}
 
